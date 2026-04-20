@@ -1,2 +1,2 @@
 # Psudo-resume-webpage
-This is a webpage of showcasing a psudo resume, cover letter, and career goal. 
+This is a webpage showcasing a psudo resume, cover letter, and career goal. 
