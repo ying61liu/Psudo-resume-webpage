@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Resume</title>
+</head>
+
+<body>
+    <header>
+        <p>Welcome to Ying Liu's page!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Resume</a>
+        <a href="cover-letter.html">Cover-letter</a>
+        <a href="career-goals.html">Career-goals</a>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Ying Liu | Software Developer</h1>
+            <p class="contactInfo">Email: <span>yliu78@wgu.edu</span></p>
+            <p class="contactInfo">Phone number: <span>000-123-4567</span></p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Education: </h2><span>current student at <a href="https://www.wgu.edu/">Western Governors Univeristy</a>, majoring in <strong><em>Computer Science</em></strong></span>
+        </section>
+
+        <section>
+            <h2>Project: </h2>
+            <ol>
+                <li>NLP: sentiment analysis</li>
+                <li>Web development</li>
+                <li>AI: LLM fine-tuning</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Certification</h2>
+            <ul>
+                <li>Linux Professional Institute Linux Essentials</li>
+                <li>ITIL Foundation Certification</li>
+            </ul>
+        </section>
+
+        <article>
+            <h2>Internship</h2>
+                <ul>
+                    <li>Frontend Software Developer Intern <strong><span>@ClarioTech LLC</span></strong> <em><span>(Fall 2024, 3 months)</span></em></li>
+                    <li>Software Engineering Intern <strong><span>@AI NeuroNetics LLC</span></strong> <em><span>(Fall 2025, 5 months)</span></em></li>
+                    <li>Pathways Intern</li>
+                </ul>
+        </article>
+
+        <section>
+            <h2>Languages</h2>
+            <table class="container">
+                <caption id="langCap">Programming Langauges and Courses</caption>
+                <tr>
+                    <th>Languages</th>
+                    <th>Languages</th>
+                    <th>Other courses</th>
+                    <th>Other courses</th>
+                </tr>
+                
+                <tr>
+                    <td>Scripting and Programming <strong>(C++)</strong></td>
+                    <td><strong>Java</strong> Frameworks,<br>Advanced Java</td>
+                    <td>Network and Security</td>
+                    <td>Data Structures and Algorithms</td>
+                </tr>
+                
+                <tr>
+                    <td>Web Development Foundations</td>
+                    <td>Self-learned:<br><strong>Python, C, SQL</strong></td>
+                    <td><strong>Linux</strong> Foundations</td>
+                    <td>AI Optimization for Computer Scientists,<br>Advanced AI and ML</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <div id="currDate"></div>
+
+        <script>
+            let currentDate = new Date();
+            document.getElementById("currDate").innerHTML = currentDate.toDateString();
+            console.log("Thanks for visiting my page!");
+        </script>
+
+    </main>
+
+    <footer>&copy; All Rights Reserved</footer>
+</body>
+</html>
